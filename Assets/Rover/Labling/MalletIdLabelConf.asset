@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MalletIdLabelConf
   m_EditorClassIdentifier: 
   m_LabelEntries:
-  - label: Red Mallet
+  - label: Mallet
     id: 1
     hierarchyRelation: 0
   autoAssignIds: 1

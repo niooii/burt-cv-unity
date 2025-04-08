@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 177.12003, g: 185.28346, b: 263.37796, a: 1}
+  m_IndirectSpecularColor: {r: 964.90265, g: 701.49225, b: 724.8712, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 157207114}
   - component: {fileID: 157207113}
   - component: {fileID: 157207115}
+  - component: {fileID: 157207116}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -153,7 +154,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 9239.679
+  m_Intensity: 21935.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -230,7 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 9239.679
+  m_Intensity: 21935.5
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -340,6 +341,124 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
+--- !u!114 &157207116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157207112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfe03f8f08e9734aaa6da362c22700e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state:
+    collapsed: 0
+    value:
+      rid: 8233525863770751006
+    threshold: 0
+  specifyIntensityAsList: 0
+  intensity:
+    collapsed: 0
+    value:
+      rid: 8233525863770751007
+  intensityList:
+    collapsed: 0
+    probabilities: []
+    uniform: 1
+    m_Categories: []
+  specifyTemperatureAsList: 0
+  temperature:
+    collapsed: 0
+    value:
+      rid: 8233525863770751008
+  temperatureList:
+    collapsed: 0
+    probabilities: []
+    uniform: 1
+    m_Categories: []
+  specifyColorAsList: 1
+  color:
+    collapsed: 0
+    red:
+      rid: 8233525863770751009
+    green:
+      rid: 8233525863770751010
+    blue:
+      rid: 8233525863770751011
+    alpha:
+      rid: 8233525863770751012
+  colorList:
+    collapsed: 0
+    probabilities: []
+    uniform: 1
+    m_Categories: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 8233525863770751006
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233525863770751007
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 1300
+          maximum: 8000
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233525863770751008
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 2400
+          maximum: 11000
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233525863770751009
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 120
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233525863770751010
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 120
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233525863770751011
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 120
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233525863770751012
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
 --- !u!1001 &166859451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -348,6 +467,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 172484352975138525, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: labels.Array.data[0]
+      value: Mallet
+      objectReference: {fileID: 0}
     - target: {fileID: 2851025281207657503, guid: bd9564f947947224ab468dd6885075db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -401,7 +525,7 @@ PrefabInstance:
     - target: {fileID: 3232230826787356325, guid: bd9564f947947224ab468dd6885075db,
         type: 3}
       propertyPath: m_Name
-      value: Red Mallet
+      value: Mallet
       objectReference: {fileID: 0}
     - target: {fileID: 4025035816456003440, guid: bd9564f947947224ab468dd6885075db,
         type: 3}
@@ -417,6 +541,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1922050361}
+    - targetCorrespondingSourceObject: {fileID: 3232230826787356325, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1922050367}
   m_SourcePrefab: {fileID: 100100000, guid: bd9564f947947224ab468dd6885075db, type: 3}
 --- !u!1 &396963009
 GameObject:
@@ -452,11 +580,13 @@ MonoBehaviour:
   - rid: 8233525787527741441
   - rid: 8233525786078085124
   - rid: 8233525787527741445
+  - rid: 8233525863770750989
+  - rid: 8233525863770750998
   configuration: {fileID: 0}
   constants:
     randomSeed: 539662031
     startIteration: 0
-    iterationCount: 1000
+    iterationCount: 2000
     totalIterations: 100
     instanceCount: 1
     instanceIndex: 0
@@ -474,7 +604,7 @@ MonoBehaviour:
         <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         depth: 0
         separationDistance: 2
-        placementArea: {x: 6, y: 4}
+        placementArea: {x: 5, y: 3}
         prefabs:
           collapsed: 0
           probabilities:
@@ -525,11 +655,69 @@ MonoBehaviour:
           - {fileID: 2800000, guid: 0a0f38ada3f3ea049a821baab2758c2f, type: 3}
           - {fileID: 2800000, guid: 01ce50ca5cda8d8489f2723684f0a796, type: 3}
           - {fileID: 2800000, guid: b29afc39cae886b4ca1931cdb9f5e068, type: 3}
-          - {fileID: 2800000, guid: bafadcf258df85b4686863cbaa688fba, type: 3}
-          - {fileID: 2800000, guid: 3f893818068c13c498261af150bea6f3, type: 3}
-          - {fileID: 2800000, guid: 17405fba9d20b47408239b3e82d60232, type: 3}
+          - {fileID: 2800000, guid: 7c61c5b95e07eea4e82b324a3b83e838, type: 3}
+          - {fileID: 2800000, guid: 89101dc700039b842bba61c2b4376af9, type: 3}
+          - {fileID: 2800000, guid: 0e528efe9854fd94ba3249f3c0638b4b, type: 3}
     - rid: 8233525787527741445
       type: {class: TransformRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers,
+        asm: Unity.Perception.Runtime}
+      data:
+        m_Enabled: 1
+        collapsed: 1
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
+    - rid: 8233525863770750989
+      type: {class: ColorRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers,
+        asm: Unity.Perception.Runtime}
+      data:
+        m_Enabled: 1
+        collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
+        colorParameter:
+          collapsed: 0
+          hue:
+            rid: 8233525863770750990
+          saturation:
+            rid: 8233525863770750994
+          value:
+            rid: 8233525863770750997
+          alpha:
+            rid: 8233525863770750993
+    - rid: 8233525863770750990
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233525863770750993
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233525863770750994
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233525863770750997
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233525863770750998
+      type: {class: LightRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers,
         asm: Unity.Perception.Runtime}
       data:
         m_Enabled: 1
@@ -1588,7 +1776,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   id: camera
   description: 
-  captureRgbImages: 0
+  captureRgbImages: 1
   firstCaptureFrame: 0
   captureTriggerMode: 0
   manualSensorAffectSimulationTiming: 0
@@ -1751,8 +1939,8 @@ MonoBehaviour:
         asm: Unity.Perception.Runtime}
       data:
         range:
-          minimum: 0.3
-          maximum: 1
+          minimum: 0.2
+          maximum: 1.5
         <minAllowed>k__BackingField: 0
         <maxAllowed>k__BackingField: 0
         <shouldCheckValidRange>k__BackingField: 0
@@ -1786,6 +1974,103 @@ MonoBehaviour:
         <minAllowed>k__BackingField: 0
         <maxAllowed>k__BackingField: 0
         <shouldCheckValidRange>k__BackingField: 0
+--- !u!114 &1922050367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922050355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8823429b12641208135cb2bd79e1096, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1953937142
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 172484352975138525, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851025281207657503, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 95.12925
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851025281207657503, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851025281207657503, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851025281207657503, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851025281207657503, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.4861027
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851025281207657503, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.56332225
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851025281207657503, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.4343922
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851025281207657503, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5076177
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851025281207657503, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -6.123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851025281207657503, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90.695
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851025281207657503, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -98.678
+      objectReference: {fileID: 0}
+    - target: {fileID: 3232230826787356325, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_Name
+      value: Test Mallet
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025035816456003440, guid: bd9564f947947224ab468dd6885075db,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8028288380388464177, guid: bd9564f947947224ab468dd6885075db, type: 3}
+    - {fileID: 172484352975138525, guid: bd9564f947947224ab468dd6885075db, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd9564f947947224ab468dd6885075db, type: 3}
 --- !u!1 &2013410473
 GameObject:
   m_ObjectHideFlags: 1
@@ -1844,4 +2129,5 @@ SceneRoots:
   - {fileID: 803446072}
   - {fileID: 396963011}
   - {fileID: 166859451}
+  - {fileID: 1953937142}
   - {fileID: 760746557}
