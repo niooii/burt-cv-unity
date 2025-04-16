@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 964.90265, g: 701.49225, b: 724.8712, a: 1}
+  m_IndirectSpecularColor: {r: 395.4938, g: 287.56277, b: 297.14508, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,79 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &114133092
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.754
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.848
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.992
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 74e7734f43caa254c8397be092bcb24d, type: 2}
-    - target: {fileID: 919132149155446097, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904,
-        type: 3}
-      propertyPath: m_Name
-      value: Nalgene_Water_Bottle_0408031531_generate
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 80a30ec2261fb4f4ea5f1e94a4bbb904, type: 3}
 --- !u!1 &157207112
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,7 +154,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 21935.5
+  m_Intensity: 8991.442
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -304,7 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 21935.5
+  m_Intensity: 8991.442
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -485,8 +412,8 @@ MonoBehaviour:
         asm: Unity.Perception.Runtime}
       data:
         range:
-          minimum: 1300
-          maximum: 8000
+          minimum: 2000
+          maximum: 9000
         <minAllowed>k__BackingField: 0
         <maxAllowed>k__BackingField: 0
         <shouldCheckValidRange>k__BackingField: 0
@@ -652,8 +579,9 @@ MonoBehaviour:
   - rid: 8233525787527741440
   - rid: 8233525787527741441
   - rid: 8233525786078085124
-  - rid: 8233525787527741445
   - rid: 8233525863770750989
+  - rid: 8233526069034745900
+  - rid: 8233525787527741445
   - rid: 8233525863770750998
   configuration: {fileID: 0}
   constants:
@@ -676,15 +604,17 @@ MonoBehaviour:
         collapsed: 0
         <enabledStateCanBeSwitchedByUser>k__BackingField: 1
         depth: 0
-        separationDistance: 2
-        placementArea: {x: 5, y: 3}
+        separationDistance: 1.6
+        placementArea: {x: 4.4, y: 3.4}
         prefabs:
           collapsed: 0
           probabilities:
-          - 1
+          - 0.5
+          - 0.5
           uniform: 1
           m_Categories:
           - {fileID: 1922050355}
+          - {fileID: 1714819072}
     - rid: 8233525787527741440
       type: {class: BackgroundObjectPlacementRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers,
         asm: Unity.Perception.Runtime}
@@ -736,7 +666,7 @@ MonoBehaviour:
         asm: Unity.Perception.Runtime}
       data:
         m_Enabled: 1
-        collapsed: 1
+        collapsed: 0
         <enabledStateCanBeSwitchedByUser>k__BackingField: 1
     - rid: 8233525863770750989
       type: {class: ColorRandomizer, ns: UnityEngine.Perception.Randomization.Randomizers,
@@ -754,7 +684,7 @@ MonoBehaviour:
           value:
             rid: 8233525863770750997
           alpha:
-            rid: 8233525863770750993
+            rid: 8233526069034745898
     - rid: 8233525863770750990
       type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
         asm: Unity.Perception.Runtime}
@@ -762,14 +692,6 @@ MonoBehaviour:
         range:
           minimum: 0
           maximum: 1
-        <minAllowed>k__BackingField: 0
-        <maxAllowed>k__BackingField: 0
-        <shouldCheckValidRange>k__BackingField: 0
-    - rid: 8233525863770750993
-      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
-        asm: Unity.Perception.Runtime}
-      data:
-        value: 1
         <minAllowed>k__BackingField: 0
         <maxAllowed>k__BackingField: 0
         <shouldCheckValidRange>k__BackingField: 0
@@ -796,6 +718,65 @@ MonoBehaviour:
         m_Enabled: 1
         collapsed: 0
         <enabledStateCanBeSwitchedByUser>k__BackingField: 1
+    - rid: 8233526069034745898
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745900
+      type: {class: ColorRandomizerNoAlpha, ns: UnityEngine.Perception.Randomization.Randomizers,
+        asm: Assembly-CSharp}
+      data:
+        m_Enabled: 1
+        collapsed: 0
+        <enabledStateCanBeSwitchedByUser>k__BackingField: 1
+        colorParameter:
+          collapsed: 0
+          hue:
+            rid: 8233526069034745901
+          saturation:
+            rid: 8233526069034745905
+          value:
+            rid: 8233526069034745906
+          alpha:
+            rid: 8233526069034745904
+    - rid: 8233526069034745901
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745904
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745905
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745906
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
 --- !u!4 &396963011
 Transform:
   m_ObjectHideFlags: 0
@@ -811,6 +792,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &455401155
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs/DefaultCompositionGraph
+  m_Shader: {fileID: -6465566751694194690, guid: 57031ff31758dc04fa93cf7891a7190e,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - BaseLayer:
+        m_Texture: {fileID: 1518145556}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1 &526760497
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,44 +1280,6 @@ MonoBehaviour:
         <minAllowed>k__BackingField: 0
         <maxAllowed>k__BackingField: 0
         <shouldCheckValidRange>k__BackingField: 0
---- !u!84 &668066469
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 1101
-  m_Height: 519
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 94
-  m_ColorFormat: 48
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &760746556
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,50 +1610,6 @@ MonoBehaviour:
         <minAllowed>k__BackingField: 0
         <maxAllowed>k__BackingField: 0
         <shouldCheckValidRange>k__BackingField: 0
---- !u!21 &1295368339
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs/DefaultCompositionGraph
-  m_Shader: {fileID: -6465566751694194690, guid: 57031ff31758dc04fa93cf7891a7190e,
-    type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - BaseLayer:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1001 &1424871034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1898,6 +1841,308 @@ MonoBehaviour:
         <minAllowed>k__BackingField: 0
         <maxAllowed>k__BackingField: 0
         <shouldCheckValidRange>k__BackingField: 0
+--- !u!84 &1518145556
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 1387
+  m_Height: 788
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 94
+  m_ColorFormat: 48
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 0
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
+--- !u!1001 &1714819071
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2859296183289109328, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859296183289109328, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859296183289109328, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859296183289109328, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859296183289109328, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859296183289109328, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859296183289109328, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859296183289109328, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859296183289109328, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2859296183289109328, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3235152532034781674, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      propertyPath: m_Name
+      value: Nalgene Bottle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3235152532034781674, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1714819075}
+    - targetCorrespondingSourceObject: {fileID: 3235152532034781674, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1714819074}
+    - targetCorrespondingSourceObject: {fileID: 3235152532034781674, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1714819080}
+    - targetCorrespondingSourceObject: {fileID: 3235152532034781674, guid: 44894c1a0dae0b544949880e753ec02b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1714819081}
+  m_SourcePrefab: {fileID: 100100000, guid: 44894c1a0dae0b544949880e753ec02b, type: 3}
+--- !u!1 &1714819072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3235152532034781674, guid: 44894c1a0dae0b544949880e753ec02b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1714819071}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1714819074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714819072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7961d14205cb64bb3687632c233c44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shouldRandomizePosition: 0
+  positionMode: 1
+  position:
+    collapsed: 0
+    x:
+      rid: 8233526069034745872
+    y:
+      rid: 8233526069034745873
+    z:
+      rid: 8233526069034745874
+  shouldRandomizeRotation: 1
+  rotationMode: 0
+  rotation:
+    collapsed: 0
+    x:
+      rid: 8233526069034745882
+    y:
+      rid: 8233526069034745883
+    z:
+      rid: 8233526069034745885
+  shouldRandomizeScale: 1
+  scaleMode: 1
+  scale:
+    collapsed: 0
+    x:
+      rid: 8233526069034745878
+    y:
+      rid: 8233526069034745879
+    z:
+      rid: 8233526069034745880
+  useUniformScale: 1
+  uniformScale:
+    collapsed: 0
+    value:
+      rid: 8233526069034745886
+  references:
+    version: 2
+    RefIds:
+    - rid: 8233526069034745872
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 0
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745873
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 0
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745874
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 0
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745878
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745879
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745880
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745882
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745883
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745885
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0
+          maximum: 360
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 8233526069034745886
+      type: {class: UniformSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        range:
+          minimum: 0.3
+          maximum: 1
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+--- !u!114 &1714819075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714819072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85e54e30bb74162b2d6bca9b68f5482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1714819080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714819072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d8103dbb8346ad8a6cf5bcf723c188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1714819081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714819072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5696b9fb4289eee478b04d92cb4369ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1823688464
 GameObject:
   m_ObjectHideFlags: 0
@@ -1968,7 +2213,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 668066469}
+  m_TargetTexture: {fileID: 1518145556}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -2144,13 +2389,13 @@ MonoBehaviour:
     m_Bits: 4294967295
   id: camera
   description: 
-  captureRgbImages: 0
+  captureRgbImages: 1
   firstCaptureFrame: 0
   captureTriggerMode: 0
   manualSensorAffectSimulationTiming: 0
   simulationDeltaTime: 0.0166
   framesBetweenCaptures: 0
-  showVisualizations: 0
+  showVisualizations: 1
   alphaThreshold: 0.1
   overrideLayerMask: 0
   useAccumulation: 0
@@ -2168,7 +2413,7 @@ MonoBehaviour:
       data:
         enabled: 1
         annotationId: bounding box
-        idLabelConfig: {fileID: 11400000, guid: 7747eb7b9aa15df44bfaae5afcd4ad8b,
+        idLabelConfig: {fileID: 11400000, guid: 5359b71736af04a41a47e8e82dcfddfe,
           type: 2}
     - rid: 8233525784920981511
       type: {class: SemanticSegmentationLabeler, ns: UnityEngine.Perception.GroundTruth.Labelers,
@@ -2222,7 +2467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Enable: 1
-  m_Material: {fileID: 1295368339}
+  m_Material: {fileID: 455401155}
   m_OutputDisplay: 0
   m_InputLayers:
   - m_LayerName: BaseLayer
@@ -2253,7 +2498,7 @@ MonoBehaviour:
     m_InputFilters: []
     m_AOVBitmask: 0
     m_AOVRenderTargets: []
-    m_RenderTarget: {fileID: 668066469}
+    m_RenderTarget: {fileID: 1518145556}
     m_ClearsBackGround: 0
     m_Show: 1
     m_LayerCamera: {fileID: 0}
@@ -2429,7 +2674,7 @@ MonoBehaviour:
       data:
         range:
           minimum: 0.2
-          maximum: 1.5
+          maximum: 1.4
         <minAllowed>k__BackingField: 0
         <maxAllowed>k__BackingField: 0
         <shouldCheckValidRange>k__BackingField: 0
@@ -2622,4 +2867,4 @@ SceneRoots:
   - {fileID: 760746557}
   - {fileID: 1855784601}
   - {fileID: 526760500}
-  - {fileID: 114133092}
+  - {fileID: 1714819071}
